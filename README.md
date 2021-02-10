@@ -1,6 +1,6 @@
 ### Sort a HashMap in Java.
 
-There are more way to sort a HashMap entries by their key or value using:
+There are several ways to sort a HashMap entries by their key or value using:
 - TreeMap
 - ArrayList and Collections.sort()
 - TreeSet
