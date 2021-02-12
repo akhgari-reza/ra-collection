@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f14cbc-6f34-49d6-bba9-96d74d48b8db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +45,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EasyMapTest.testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue">
+  <component name="RunManager" selected="JUnit.EasyMapTest.testSortingGivenHashMapByIdUsingTreeMap_thenAssertTrue">
+    <configuration name="EasyMapTest.testSortingGivenHashMapByIdUsingTreeMap_thenAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="racollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ra.collection.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ra.collection.map" />
+      <option name="MAIN_CLASS_NAME" value="com.ra.collection.map.EasyMapTest" />
+      <option name="METHOD_NAME" value="testSortingGivenHashMapByIdUsingTreeMap_thenAssertTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EasyMapTest.testSortingGivenHashMapByKey_thenAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="racollection" />
       <extension name="coverage">
@@ -82,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByIdUsingTreeMap_thenAssertTrue" />
         <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue" />
         <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByKey_thenAssertTrue" />
       </list>
@@ -98,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612966192312</updated>
       <workItem from="1612966196856" duration="16584000" />
-      <workItem from="1613141083593" duration="5347000" />
+      <workItem from="1613141083593" duration="6671000" />
     </task>
     <servers />
   </component>
