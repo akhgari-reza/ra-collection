@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10f14cbc-6f34-49d6-bba9-96d74d48b8db" name="Default Changelist" comment="" />
+    <list default="true" id="10f14cbc-6f34-49d6-bba9-96d74d48b8db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oIFRqJY93DNb7NCMbCuYinQ5Xd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -37,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.EasyMapTest.testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue">
     <configuration name="EasyMapTest.testSortingGivenHashMapByKey_thenAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="racollection" />
       <extension name="coverage">
@@ -54,8 +64,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EasyMapTest.testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="racollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ra.collection.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ra.collection.map" />
+      <option name="MAIN_CLASS_NAME" value="com.ra.collection.map.EasyMapTest" />
+      <option name="METHOD_NAME" value="testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue" />
         <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByKey_thenAssertTrue" />
       </list>
     </recent_temporary>
@@ -70,11 +97,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612966192312</updated>
-      <workItem from="1612966196856" duration="13428000" />
+      <workItem from="1612966196856" duration="16584000" />
+      <workItem from="1613141083593" duration="5347000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
