@@ -125,4 +125,20 @@ public class EasyMap<K,V> {
                         .get();
     }
 
+
+    /**
+     *
+     * @param map The Source Map
+     * @param <K> K Value
+     * @param <V> V Type
+     * @return Max V Type value
+     */
+    public static <K,V extends Comparable<V>> V getMaxUsingStream(Map<K,V> map)
+    {
+        Optional<Map.Entry<K,V>>
+                maxEntry = map.entrySet().stream().max(Comparator.comparing(Map.Entry::getValue));
+        return maxEntry.get().getValue();
+    }
+
+
 }

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="10f14cbc-6f34-49d6-bba9-96d74d48b8db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ra/collection/map/EasyMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ra/collection/map/EasyMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ra/collection/map/EasyMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ra/collection/map/EasyMapTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +48,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EasyMapTest.testSortingGivenHashMapByIdUsingTreeMap_thenAssertTrue">
+  <component name="RunManager" selected="JUnit.EasyMapTest.testGetMaxUsingStream_thenAssertTrue">
+    <configuration name="EasyMapTest.testGetMaxUsingStream_thenAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="racollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ra.collection.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ra.collection.map" />
+      <option name="MAIN_CLASS_NAME" value="com.ra.collection.map.EasyMapTest" />
+      <option name="METHOD_NAME" value="testGetMaxUsingStream_thenAssertTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EasyMapTest.testSortingGivenHashMapByIdUsingTreeMap_thenAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="racollection" />
       <extension name="coverage">
@@ -96,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EasyMapTest.testGetMaxUsingStream_thenAssertTrue" />
         <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByIdUsingTreeMap_thenAssertTrue" />
         <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue" />
         <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByKey_thenAssertTrue" />
@@ -113,7 +133,9 @@
       <option name="presentableId" value="Default" />
       <updated>1612966192312</updated>
       <workItem from="1612966196856" duration="16584000" />
-      <workItem from="1613141083593" duration="6671000" />
+      <workItem from="1613141083593" duration="7690000" />
+      <workItem from="1613243522014" duration="1238000" />
+      <workItem from="1613296176681" duration="6000000" />
     </task>
     <servers />
   </component>

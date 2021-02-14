@@ -10,7 +10,7 @@ import java.util.Map;
 public class EasyMapTest {
 
     @Test
-    public void testSortingGivenHashMapByKeyUsingStreamAPI_thenAssertTrue() throws Exception
+    public void testSortingGivenHashMapByKeyUsingStreamAPI_thenAssertTrue()
     {
         //Given
         Map<String, String> map = new HashMap<>();
@@ -30,8 +30,8 @@ public class EasyMapTest {
 
 
     @Test
-    public void testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue() throws Exception{
-
+    public void testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue()
+    {
         //Given
         Map<Integer, String> map = new HashMap<>();
         map.put(0, "Moscow");
@@ -68,4 +68,22 @@ public class EasyMapTest {
         Assertions.assertEquals(4, sortedMap.entrySet().size());
         Assertions.assertEquals( expectedItem , sortedMap.entrySet().toArray()[0]);
     }
+
+
+    @Test
+    void testGetMaxUsingStream_thenAssertTrue() {
+
+        //Given
+        Map<Integer, String> map = new HashMap<>();
+        map.put(0, "Moscow");
+        map.put(1, "Saint Petersburg");
+        map.put(2, "Novosibirsk");
+        map.put(3, "Barnaul");
+        map.put(4, "Irkutsk");
+
+        // Sort map using EasyMap
+        String maxValueByLength = EasyMap.getMaxUsingStream(map);
+        Assertions.assertEquals("Saint Petersburg" , maxValueByLength);
+    }
+
 }
