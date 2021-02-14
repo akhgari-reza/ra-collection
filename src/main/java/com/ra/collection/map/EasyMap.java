@@ -129,7 +129,7 @@ public class EasyMap<K,V> {
     /**
      *
      * @param map The Source Map
-     * @param <K> K Value
+     * @param <K> K Type
      * @param <V> V Type
      * @return Max V Type value
      */
@@ -138,6 +138,21 @@ public class EasyMap<K,V> {
         Optional<Map.Entry<K,V>>
                 maxEntry = map.entrySet().stream().max(Comparator.comparing(Map.Entry::getValue));
         return maxEntry.get().getValue();
+    }
+
+
+    /**
+     *
+     * @param map Yhe Source Map
+     * @param <K> K Type
+     * @param <V> V Type
+     * @return String
+     */
+    public static <K,V> String convertToString(Map<K,V> map)
+    {
+        return map.keySet().stream()
+                .map(key -> key + "=" + map.get(key))
+                .collect(Collectors.joining(", " , "{", "}"));
     }
 
 

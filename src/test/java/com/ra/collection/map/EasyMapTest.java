@@ -86,4 +86,20 @@ public class EasyMapTest {
         Assertions.assertEquals("Saint Petersburg" , maxValueByLength);
     }
 
+
+    @Test
+    void testConvertToString()
+    {
+        Map<Integer, String> map = new HashMap<>();
+        map.put(0, "Moscow");
+        map.put(1, "Saint Petersburg");
+        map.put(2, "Novosibirsk");
+        map.put(3, "Barnaul");
+        map.put(4, "Irkutsk");
+
+        Assertions.assertEquals(
+                "{0=Moscow, 1=Saint Petersburg, 2=Novosibirsk, 3=Barnaul, 4=Irkutsk}" ,
+                EasyMap.convertToString(map));
+    }
+
 }

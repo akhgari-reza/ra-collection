@@ -48,7 +48,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EasyMapTest.testGetMaxUsingStream_thenAssertTrue">
+  <component name="RunManager" selected="JUnit.EasyMapTest.testConvertToString">
+    <configuration name="EasyMapTest.testConvertToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="racollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ra.collection.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ra.collection.map" />
+      <option name="MAIN_CLASS_NAME" value="com.ra.collection.map.EasyMapTest" />
+      <option name="METHOD_NAME" value="testConvertToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EasyMapTest.testGetMaxUsingStream_thenAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="racollection" />
       <extension name="coverage">
@@ -115,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EasyMapTest.testConvertToString" />
         <item itemvalue="JUnit.EasyMapTest.testGetMaxUsingStream_thenAssertTrue" />
         <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByIdUsingTreeMap_thenAssertTrue" />
         <item itemvalue="JUnit.EasyMapTest.testSortingGivenHashMapByValueUsingStreamAPI_thenAssertTrue" />
@@ -135,7 +152,7 @@
       <workItem from="1612966196856" duration="16584000" />
       <workItem from="1613141083593" duration="7690000" />
       <workItem from="1613243522014" duration="1238000" />
-      <workItem from="1613296176681" duration="6000000" />
+      <workItem from="1613296176681" duration="8342000" />
     </task>
     <servers />
   </component>
