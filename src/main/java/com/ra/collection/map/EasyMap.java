@@ -144,7 +144,7 @@ public class EasyMap<K,V> {
 
     /**
      *
-     * @param map Yhe Source Map
+     * @param map The Source Map
      * @param <K> K Type
      * @param <V> V Type
      * @return String
@@ -154,6 +154,32 @@ public class EasyMap<K,V> {
         return map.keySet().stream()
                 .map(key -> key + "=" + map.get(key))
                 .collect(Collectors.joining(", " , "{", "}"));
+    }
+
+
+    /**
+     *
+     * @param map The Source Map
+     * @param <K> K Type
+     * @param <V> V Type
+     * @return return Set<V>
+     */
+    public static <K,V> Set<V> convertToSet(Map<K,V> map)
+    {
+        return new HashSet<>(map.values());
+    }
+
+
+    /**
+     *
+     * @param map The Source Map
+     * @param <K> K Type
+     * @param <V> V Type
+     * @return return List<V>
+     */
+    public static <K,V> List<V> convertToList(Map<K,V> map)
+    {
+        return new ArrayList<>(map.values());
     }
 
 
