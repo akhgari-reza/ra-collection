@@ -2,6 +2,7 @@ package com.ra.collection.map;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  *
@@ -153,6 +154,23 @@ public class EasyMap<K,V> {
         return map.keySet().stream()
                 .map(key -> key + "=" + map.get(key))
                 .collect(Collectors.joining(", " , "{", "}"));
+    }
+
+
+    /**
+     *
+     * @param firstMap First Map
+     * @param secondMap  Second Map
+     * @param <K> K Type
+     * @param <V> V Type
+     * @return Merged Map
+     */
+    public static <K,V> Map<K,V> merge(Map<K,V> firstMap , Map<K,V> secondMap)
+    {
+        return Stream
+                .of(firstMap , secondMap)
+                .flatMap(map -> map.entrySet().stream())
+                .collect(Collectors.toMap(Map.Entry::getKey , Map.Entry::getValue));
     }
 
 

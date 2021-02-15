@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ra/collection/map/EasyMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ra/collection/map/EasyMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ra/collection/map/EasyMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ra/collection/map/EasyMapTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +150,8 @@
       <workItem from="1612966196856" duration="16584000" />
       <workItem from="1613141083593" duration="7690000" />
       <workItem from="1613243522014" duration="1238000" />
-      <workItem from="1613296176681" duration="8342000" />
+      <workItem from="1613296176681" duration="9554000" />
+      <workItem from="1613395416446" duration="2453000" />
     </task>
     <servers />
   </component>

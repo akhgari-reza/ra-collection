@@ -86,7 +86,6 @@ public class EasyMapTest {
         Assertions.assertEquals("Saint Petersburg" , maxValueByLength);
     }
 
-
     @Test
     void testConvertToString()
     {
