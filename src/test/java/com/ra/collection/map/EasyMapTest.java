@@ -4,8 +4,7 @@ package com.ra.collection.map;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class EasyMapTest {
 
@@ -100,5 +99,18 @@ public class EasyMapTest {
                 "{0=Moscow, 1=Saint Petersburg, 2=Novosibirsk, 3=Barnaul, 4=Irkutsk}" ,
                 EasyMap.convertToString(map));
     }
+
+
+
+    @Test
+    void testCreateFromList_thenAssertTrue()
+    {
+        List<String> list = Arrays.asList("Russia" , "USA" , "China" , "UK" , "France");
+        Map<String , String> mapFromList = EasyMap.createFromList(list);
+        Assertions.assertTrue(mapFromList.containsValue("Russia"));
+
+    }
+
+
 
 }

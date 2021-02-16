@@ -1,6 +1,9 @@
 package com.ra.collection.map;
 
+import com.sun.security.auth.UnixNumericUserPrincipal;
+
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -197,6 +200,20 @@ public class EasyMap<K,V> {
                 .of(firstMap , secondMap)
                 .flatMap(map -> map.entrySet().stream())
                 .collect(Collectors.toMap(Map.Entry::getKey , Map.Entry::getValue));
+    }
+
+
+    /**
+     *
+     * @param list List of V Type
+     * @param <V> Type V
+     * @return Map<String , V>
+     */
+    public static <V> Map<String , V> createFromList(List<V> list)
+    {
+        return list
+                .stream()
+                .collect(HashMap::new , (m, c) -> m.put(UUID.randomUUID().toString() , c) , (m , u) -> {});
     }
 
 
