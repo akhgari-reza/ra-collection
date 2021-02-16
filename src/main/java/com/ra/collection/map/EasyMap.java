@@ -216,5 +216,4 @@ public class EasyMap<K,V> {
                 .collect(HashMap::new , (m, c) -> m.put(UUID.randomUUID().toString() , c) , (m , u) -> {});
     }
 
-
 }

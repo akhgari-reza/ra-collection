@@ -47,7 +47,6 @@ public class EasyMapTest {
         Assertions.assertEquals(5, sortedMap.entrySet().size());
         Assertions.assertEquals( expectedItem , sortedMap.entrySet().toArray()[0]);
 
-
     }
 
     @Test

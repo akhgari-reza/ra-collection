@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10f14cbc-6f34-49d6-bba9-96d74d48b8db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="10f14cbc-6f34-49d6-bba9-96d74d48b8db" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,7 @@
       <workItem from="1613395416446" duration="4232000" />
       <workItem from="1613480596081" duration="45000" />
       <workItem from="1613480657452" duration="7000" />
-      <workItem from="1613480694679" duration="6047000" />
+      <workItem from="1613480694679" duration="6541000" />
     </task>
     <servers />
   </component>
