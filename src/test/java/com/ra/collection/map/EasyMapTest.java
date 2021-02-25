@@ -99,8 +99,6 @@ public class EasyMapTest {
                 EasyMap.convertToString(map));
     }
 
-
-
     @Test
     void testCreateFromList_thenAssertTrue()
     {
@@ -108,7 +106,32 @@ public class EasyMapTest {
         Map<String , String> mapFromList = EasyMap.createFromList(list);
         Assertions.assertTrue(mapFromList.containsValue("Russia"));
 
+        System.out.println(isAnagram("anagram" , "nagaram"));
+        System.out.println(isAnagram("rat" , "car"));
+        System.out.println(isAnagram("listen" , "silent"));
+        System.out.println(isAnagram("ac" , "bb"));
+
     }
+
+    public boolean isAnagram(String s, String t) {
+        return this.sortString(s).equals(this.sortString(t));
+
+    }
+
+    public int getWeightOfString(String st)
+    {
+        int weight = 0;
+        for (char ch : st.toCharArray()) weight = weight + (int) ch;
+        return weight;
+    }
+
+    public String sortString(String s)
+    {
+        char[] temp = s.toCharArray();
+        Arrays.sort(temp);
+        return new String(temp);
+    }
+
 
 
 
