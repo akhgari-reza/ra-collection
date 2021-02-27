@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10f14cbc-6f34-49d6-bba9-96d74d48b8db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ra/collection/map/EasyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ra/collection/map/EasyMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ra/collection/map/EasyMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ra/collection/map/EasyMapTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="10f14cbc-6f34-49d6-bba9-96d74d48b8db" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +11,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -167,7 +163,9 @@
       <workItem from="1614076825282" duration="592000" />
       <workItem from="1614121558863" duration="59000" />
       <workItem from="1614251234487" duration="1199000" />
-      <workItem from="1614271147194" duration="4187000" />
+      <workItem from="1614271147194" duration="4660000" />
+      <workItem from="1614330202842" duration="1206000" />
+      <workItem from="1614432051087" duration="2801000" />
     </task>
     <servers />
   </component>
